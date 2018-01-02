@@ -1,0 +1,11 @@
+server:
+  port: 9090
+  
+spring:
+  mvc:
+    async:
+      request-timeout: 45000
+      
+data:
+  count: 1
+  delay: 5000      
